@@ -5,8 +5,9 @@
 
 ### 1. Рекомендации по форматированию
 
-  - [x] в качестве базовой единицы отступа следует использовать табуляцию (1 таб)
-  - [x] длина строки 120 символов
+  - в качестве базовой единицы отступа следует использовать табуляцию (1 таб)
+
+  - длина строки 120 символов
 
   - #### Отступы.
 
@@ -35,7 +36,6 @@
     - разбить до оператора
     
     ```
-    //- примеры разбивки аргументов метода и выражения
     private void calcObjectCounters(Account account, ContentVersion contentVersion,
         Attachment attachment) {
       
@@ -58,34 +58,34 @@
     }
     ```
 
-- #### Пустые строки.
+  - #### Пустые строки.
 
-    использование в следующих случаях:
-    - между описаниями методов
-    - между блочным/однострочным комментарием, логическими секциями внутри метода
+      использование в следующих случаях:
+      - между описаниями методов
+      - между блочным/однострочным комментарием, логическими секциями внутри метода
   
-    ```
-    //- между описанием методов
-    private void configSfObjects() {
-        //code...
-    }
+      ```
+      //- между описанием методов
+      private void configSfObjects() {
+          //code...
+      }
 
-    private void configPgObjects() {
-        //code...
-    }
+      private void configPgObjects() {
+          //code...
+      }
 
-    /**
-    * Javadoc
-    * @param counters параметр
-    */
-    private void addCalculators(CountersCalculator counters) {
-        if (counters.getResult() <= 0) {
-            return;
-        }
+      /**
+      * Javadoc
+      * @param counters параметр
+      */
+      private void addCalculators(CountersCalculator counters) {
+          if (counters.getResult() <= 0) {
+              return;
+          }
       
-        //- комментарий...
-        calculators.add(counters);
-    }
-    ```
+          //- комментарий...
+          calculators.add(counters);
+      }
+      ```
 
 # Список необходимых для работы файлов
