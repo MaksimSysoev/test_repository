@@ -91,4 +91,3 @@
 # Список необходимых для работы файлов
 
 - [codestyle.xml](files/codestyle.xml)
-- [checkstyle.xml](#)
